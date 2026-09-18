@@ -58,6 +58,7 @@ None — uses only the Python standard library.
 - Read puzzles from a file instead of hardcoding them
 - Add input validation for malformed or unsolvable boards
 - Add a puzzle generator
+- Solve different size sudoku puzzles
 
 --LICENSE--
 
