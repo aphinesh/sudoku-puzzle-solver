@@ -3,6 +3,7 @@
 A backtracking algorithm that solves 9x9 Sudoku puzzles in Python.
 
 --HOW IT WORKS--
+
 The solver uses recursive backtracking:
 
 1) Find the first empty cell on the board (represented as 0).
@@ -13,11 +14,13 @@ The solver uses recursive backtracking:
 6) Repeat until the board is full (solved) or every possibility is exhausted.
 
 --USAGE--
+
 The puzzle is currently hardcoded as a 2D list at the top of the script. To solve your own puzzle, edit the board variable directly (use 0 for empty cells), then run:
 
 python sudoku_solver.py
 
 --EXAMPLE--
+
 Input:
 
 3 6 4  | 0 9 0  | 0 0 0 
@@ -47,12 +50,15 @@ Output:
 2 4 9  | 5 1 3  | 6 7 8
 
 --REQUIREMENTS--
+
 None — uses only the Python standard library.
 
 --POSSIBLE FUTURE IMPROVEMENTS--
+
 - Read puzzles from a file instead of hardcoding them
 - Add input validation for malformed or unsolvable boards
 - Add a puzzle generator
 
 --LICENSE--
+
 MIT
